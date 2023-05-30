@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+a {
+  text-decoration: none;
+  }
+ul{
+  list-style-type:none;
+}
+.link{
+  list-style-type:none;
+}
+.header-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.header-menu-list {
+}
+
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-btn {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+
+}
+.strategy-subtitle{
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.strategy-text{
+font-size: 16px;
+line-height:1.50;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.product-title{
+
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.team-title{
+  font-size: 36px;
+  line-height: 1.02;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-subtitle{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.02;
+  letter-spacing: 0.02em;
+  
+}
+.team-text{
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+}
+footer{
+  background:#2E2F42;
+}
+.footer-logo{
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+}
+.footer-text{
+  font-family: Roboto;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+text-align: left;
+color: #F4F4FD;
+}
