@@ -1,11 +1,12 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
+:root{
+  --text-color:#2E2F42;
+  --bg-color:#ffffff;
+  --logo-color:#4d5ae5;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455 ;
+  background-color: var(--bg-color);
 }
 a {
   text-decoration: none;
@@ -14,54 +15,44 @@ ul {
   list-style-type: none;
 }
 .link {
-  list-style-type: none;
+  text-decoration: none
 }
 header {
-  display: flex;
-  justify-content: space-around;
-  height: 76px;
+  
 }
 span{
-  color:#4D5AE5;
-  ;
+  color: var(--text-color);
 }
 .header-logo {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  color: var(--logo-color);
 }
 .header-logo {
 }
 .header-menu {
-  display: flex;
 }
 .header-menu-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+}
+.header-menu-item{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+
 }
 .header-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ 
   background: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-address {
 }
 .header-sol {
-  display: flex;
-  gap: 40px;
 }
 .header-sol-item {
 }
@@ -73,10 +64,7 @@ span{
 }
 
 .hero {
-  align-items: center;
-  justify-content: space-around;
   background: #2e2f42;
-  flex-wrap: wrap;
 }
 .hero-title {
   font-size: 56px;
@@ -87,11 +75,7 @@ span{
 }
 .hero-btn {
   text-align: center;
-  padding: 16px 32px;
-  gap: 10px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  background: var(--logo-color);
   color: #ffffff;
 }
 .strategy {
@@ -140,18 +124,12 @@ footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:#F4F4FD;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 
+  color:#F4F4FD;
 }
 .footer-text {
-  font-family: Roboto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
@@ -159,23 +137,12 @@ footer {
 }
 /* ==============PORTFOLIO============= */
 .container-btns {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
 }
 .filter-btn {
-  color: #4d5ae5;
+  color: var(--logo-color);
   cursor: pointer;
-  top: 0px;
-  gap: 24px;
-  border-radius: 4px;
-  padding: 12px 24px 12px 24px;
 }
 .filter-btn:focus {
   color: #ffffff;
   background: #404bbf;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
