@@ -1,13 +1,13 @@
-:root{
-  --text-color:#2E2F42;
-  --bg-color:#FFFFFF;
-  --logo-color:#4d5ae5; 
-  --btn-bg-color:#F4F4FD;
-  --info-p-color:#434455;
+:root {
+  --text-color: #2e2f42;
+  --bg-color: #ffffff;
+  --logo-color: #4d5ae5;
+  --btn-bg-color: #f4f4fd;
+  --info-p-color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455 ;
+  color: #434455;
   background-color: var(--bg-color);
 }
 a {
@@ -17,15 +17,14 @@ ul {
   list-style-type: none;
 }
 .link {
-  text-decoration: none
+  text-decoration: none;
 }
-.list{
-  list-style:none;
+.list {
+  list-style: none;
 }
 header {
-  
 }
-span{
+.header-span-logo {
   color: var(--text-color);
 }
 .header-logo {
@@ -41,48 +40,47 @@ span{
 }
 .header-menu {
 }
-.header-menu{
+.header-menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.header-menu:hover{
-  color: #404bbf
+.header-menu:hover {
+  color: #404bbf;
 }
-.header-menu:focus{
-  color: #404bbf
+.header-menu:focus {
+  color: #404bbf;
 }
-.header-menu-item{
+.header-menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-
 }
 .header-navigation {
   background: #ffffff;
 }
 .header-address {
-  font-style: normal
+  font-style: normal;
 }
 .header-sol {
 }
 .header-sol-item {
 }
-.header-sol{
+.header-sol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-sol:hover{
-  color: #404bbf
+.header-sol:hover {
+  color: #404bbf;
 }
-.header-sol:focus{
-  color: #404bbf
+.header-sol:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -103,13 +101,13 @@ span{
   letter-spacing: 0.04em;
   background: var(--logo-color);
   color: #ffffff;
-  cursor: pointer
+  cursor: pointer;
 }
-.hero-btn:hover{
-  background-color: #404BBF;
+.hero-btn:hover {
+  background-color: #404bbf;
 }
-.hero-btn:focus{
-  background-color: #404BBF;
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 .strategy {
 }
@@ -135,8 +133,8 @@ span{
   text-align: center;
   color: var(--text-color);
 }
-.team{
-  background-color: #F4F4FD;
+.team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
@@ -144,17 +142,20 @@ span{
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color:var(--text-color)
+  color: var(--text-color);
 }
-.team-list{
-  background-color: #FFFFFF;
+.team-list {
+  background-color: #ffffff;
+}
+.team-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:var(--text-color)
+  color: var(--text-color);
 }
 .team-text {
   font-size: 16px;
@@ -164,15 +165,15 @@ span{
 .footer {
   background-color: var(--text-color);
 }
-.footer-logo{
-  font-family: "Raleway",sans-serif;
+.footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color:var(--logo-color);
+  color: var(--logo-color);
 }
 .footer-text {
   line-height: 1.5;
@@ -180,23 +181,22 @@ span{
   text-align: left;
   color: #f4f4fd;
 }
-.footer-span-logo{
+.footer-span-logo {
   color: #f4f4fd;
 }
 /* ==============PORTFOLIO============= */
 .container-btns {
 }
 .filter-btn {
-  font-family: "Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--logo-color);
   list-style: none;
-  background-color:var(--btn-bg-color);
+  background-color: var(--btn-bg-color);
   cursor: pointer;
-
 }
 .filter-btn:hover {
   color: #ffffff;
@@ -206,15 +206,15 @@ span{
   color: #ffffff;
   background: #404bbf;
 }
-.container-title{
-  font-weight: 500 ;
+.container-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:var(--text-color);
+  color: var(--text-color);
 }
-.container-text{
+.container-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--info-p-color)
+  color: var(--info-p-color);
 }
