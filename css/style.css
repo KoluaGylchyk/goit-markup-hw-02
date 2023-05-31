@@ -22,8 +22,7 @@ ul {
 .list {
   list-style: none;
 }
-header {
-}
+
 .header-span-logo {
   color: var(--text-color);
 }
@@ -36,10 +35,7 @@ header {
   text-transform: uppercase;
   color: var(--logo-color);
 }
-.header-logo {
-}
-.header-menu {
-}
+
 .header-menu {
   font-weight: 500;
   font-size: 16px;
@@ -65,10 +61,6 @@ header {
 }
 .header-address {
   font-style: normal;
-}
-.header-sol {
-}
-.header-sol-item {
 }
 .header-sol {
   font-size: 16px;
@@ -108,8 +100,6 @@ header {
 }
 .hero-btn:focus {
   background-color: #404bbf;
-}
-.strategy {
 }
 .strategy-subtitle {
   font-size: 20px;
@@ -185,8 +175,6 @@ header {
   color: #f4f4fd;
 }
 /* ==============PORTFOLIO============= */
-.container-btns {
-}
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
